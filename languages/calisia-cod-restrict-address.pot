@@ -1,0 +1,31 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: calisia-cod-restrict-address\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-10 13:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2\n"
+"X-Domain: calisia-cod-restrict-address"
+
+#. Name of the plugin
+msgid "calisia-cod-restrict-address"
+msgstr ""
+
+#. Author of the plugin
+msgid "Tomasz Boroń"
+msgstr ""
+
+#: src/checkout.php:9 src/checkout.php:18
+msgid ""
+"We cannot sand your items to other shipping address when using \"cod\" "
+"payment method. Please change payment method or use billing address instead."
+msgstr ""

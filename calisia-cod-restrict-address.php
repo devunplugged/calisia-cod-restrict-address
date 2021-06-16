@@ -13,10 +13,8 @@ require_once CALISIA_COD_RESTRICT_ADDRESS_ROOT . '/src/core/loader.php';
 require_once CALISIA_COD_RESTRICT_ADDRESS_ROOT . '/src/core/translations.php';
 require_once CALISIA_COD_RESTRICT_ADDRESS_ROOT . '/src/checkout.php';
 
-//load css and js files in frontend
+//load js files in frontend
 add_action('wp_enqueue_scripts', 'calisia_cod_restrict_address\loader::load_js', 19);
-
-
 
 //check if cod (platnosc przy odbiorze) and other shipping address are filled
 //if so invalidate the form and show error message

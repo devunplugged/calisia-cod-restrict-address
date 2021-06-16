@@ -7,8 +7,9 @@ class calisia_cod_restrict_address{
     constructor() {
         this.cod = document.getElementById("payment_method_cod");
         this.address = document.getElementById("ship-to-different-address-checkbox");
-        this.payment_method = jQuery('form[name="checkout"] input[name="payment_method"]').value;
+        this.payment_method = jQuery('form[name="checkout"] input[name="payment_method"]').val();
         this.error_seen = false;
+
         this.add_event_listeners();
     }
 

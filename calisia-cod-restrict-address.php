@@ -6,6 +6,10 @@
  * Domain Path: /languages
 */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit();
+}
+
 define('CALISIA_COD_RESTRICT_ADDRESS_ROOT', __DIR__);
 define('CALISIA_COD_RESTRICT_ADDRESS_URL', plugin_dir_url( __FILE__ ));
 

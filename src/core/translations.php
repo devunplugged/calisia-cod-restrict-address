@@ -1,6 +1,10 @@
 <?php
 namespace calisia_cod_restrict_address;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit();
+}
+
 class translations{
     /**
      * Load plugin textdomain.

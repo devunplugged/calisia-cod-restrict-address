@@ -1,7 +1,9 @@
 <?php
 namespace calisia_cod_restrict_address;
 
-
+if ( ! defined( 'ABSPATH' ) ) {
+	exit();
+}
 
 class loader{
     public static function load_js(){
